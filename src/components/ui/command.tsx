@@ -1,5 +1,5 @@
 import * as React from "react"
-import { DialogProps } from "@radix-ui/react-dialog"
+import type { DialogProps } from "@radix-ui/react-dialog"
 import { Command as CommandPrimitive } from "cmdk"
 import { Search } from "lucide-react"
 
@@ -21,6 +21,7 @@ const Command = React.forwardRef<
 ))
 Command.displayName = CommandPrimitive.displayName
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface CommandDialogProps extends DialogProps {}
 
 const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
