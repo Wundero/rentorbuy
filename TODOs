@@ -1,0 +1,8 @@
+Setup:
+    [] Set up global react query state stuff
+    [] Create chart component(s) for visualizing final prices
+    - Tanstack chart
+    [] Create calculation helpers
+    [] Create data table
+    - Tanstack table
+    [] QR Code for sharing data
