@@ -44,9 +44,12 @@ export function CurrentSettings(props: CurrentSettingsProps) {
           </Button>
           <QRCode
             contents={typeof window !== "undefined" ? window.location.href : ""}
+            moduleColor="hsl(var(--foreground))"
+            positionRingColor="hsl(var(--foreground))"
+            positionCenterColor="hsl(var(--foreground))"
           >
-            <div className="flex justify-center pr-1 pb-2">
-              <DollarSign size={36}/>
+            <div className="flex justify-center pb-2 pr-1">
+              <DollarSign size={36} />
             </div>
           </QRCode>
         </div>

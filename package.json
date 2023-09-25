@@ -10,7 +10,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@bitjson/qr-code": "^1.0.2",
     "@formkit/auto-animate": "^0.8.0",
     "@hookform/resolvers": "^3.3.1",
     "@radix-ui/react-alert-dialog": "^1.0.4",
@@ -53,6 +52,7 @@
     "lucide-react": "^0.279.0",
     "next": "^13.4.19",
     "next-themes": "^0.2.1",
+    "qrcode-generator": "^1.4.4",
     "react": "18.2.0",
     "react-charts": "^3.0.0-beta.55",
     "react-day-picker": "^8.8.2",
@@ -73,7 +73,6 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^8.47.0",
     "eslint-config-next": "^13.4.19",
-    "patch-package": "^8.0.0",
     "postcss": "^8.4.27",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.5.1",
